@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bsajak-dit.com | Sastra, Puisi, dan Inspirasi</title>
+    <meta name="description" content="bsajak-dit.com adalah ruang sastra digital berisi puisi, esai, dan inspirasi kehidupan." />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 120px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: auto;
+        }
+        nav {
+            background: #111;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 5px 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section-title h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card .content {
+            padding: 15px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+        .about img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            .about {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/.com">Beranda</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/.com">Puisi</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/.com">Esai</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/.com">Tentang</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/.com">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header / Hero -->
+    <header id="beranda">
+        <h1>bsajak-dit.com</h1>
+        <p>Ruang sastra digital untuk puisi, esai, dan catatan kecil tentang kehidupan, sunyi, dan makna.</p>
+    </header>
+
+    <!-- Section Puisi -->
+    <section id="puisi">
+        <div class="section-title">
+            <h2>Puisi Terbaru</h2>
+            <p>Potongan kata yang lahir dari perenungan</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Puisi Senja" />
+                <div class="content">
+                    <h3>Senja di Ujung Kata</h3>
+                    <p>Puisi tentang senja, pulang, dan rindu yang tidak pernah benar-benar usai.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=800&q=80" alt="Puisi Hujan" />
+                <div class="content">
+                    <h3>Hujan dan Ingatan</h3>
+                    <p>Kenangan lama yang jatuh satu per satu, seperti hujan di sore hari.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80" alt="Puisi Malam" />
+                <div class="content">
+                    <h3>Malam yang Diam</h3>
+                    <p>Puisi sunyi tentang malam, lampu jalan, dan doa yang lirih.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Esai -->
+    <section id="esai" style="background:#f7f7f7;">
+        <div class="section-title">
+            <h2>Esai & Catatan</h2>
+            <p>Tulisan reflektif tentang hidup dan manusia</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=800&q=80" alt="Esai Kehidupan" />
+                <div class="content">
+                    <h3>Belajar Pelan-Pelan</h3>
+                    <p>Sebuah esai tentang menerima hidup apa adanya, tanpa tergesa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80" alt="Esai Sunyi" />
+                <div class="content">
+                    <h3>Makna Sunyi</h3>
+                    <p>Sunyi bukan kekosongan, ia adalah ruang untuk mendengar diri sendiri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang">
+        <div class="section-title">
+            <h2>Tentang bsajak-dit</h2>
+        </div>
+        <div class="about">
+            <div>
+                <p><strong>bsajak-dit.com</strong> adalah ruang personal dan kolektif untuk menyimpan puisi, esai, dan catatan kecil tentang kehidupan. Situs ini lahir dari kegemaran menulis dan keinginan berbagi makna melalui kata.</p>
+                <p>Di sini, kata tidak harus sempurna. Ia cukup jujur.</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80" alt="Menulis" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" style="background:#f7f7f7;">
+        <div class="section-title">
+            <h2>Kontak</h2>
+            <p>Ingin berdiskusi atau berkolaborasi?</p>
+        </div>
+        <p style="text-align:center;">Email: <a href="mailto:halo@bsajak-dit.com">halo@bsajak-dit.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 bsajak-dit.com</p>
+        <p>Sastra • Puisi • Esai</p>
+    </footer>
+
+</body>
+</html>
